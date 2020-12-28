@@ -14,4 +14,4 @@ Afterwards you can run the python script. This will create a new directory where
 
 NOTE: you need ffmpeg to be installed. This is needed in order to create the video file. You can download this from the following website: https://ffmpeg.org/ .
 
-I only tested this script on Ubuntu 18.04, it may be possible that it will fail on windows and MacOs. In this scenario you'll most likely need to adopt the part which executes the ffmpeg program, however, you can also set the video argument of the <code>run_game_of_life</code> to false. 
+I only tested this script on Ubuntu 18.04, it may be possible that it will fail on windows and MacOs. In this scenario you'll most likely need to adopt the part which executes the ffmpeg program, however, you can also set the video argument of the <code>run_game_of_life(video=False)</code> function to false. 
